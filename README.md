@@ -28,8 +28,10 @@ stroke-prediction/
   --- | ---
   <img src="figures/roc_logit.png" width="400"/> | <img src="figures/pr_logit.png" width="400"/>
 
-- **Confusion Matrices**:  
-  <img src="figures/confmat_logit_default.png" width="350"/>  <img src="figures/confmat_logit_tuned.png" width="350"/>
+- **Confusion Matrix**:  
+  <img src="figures/confmat_logit_default.png" width="350"/>  
+
+*(튜닝 임곗값 결과도 기본값과 동일한 분포였음)*
 
 - **Clean Data**: [`data/stroke_clean.csv`](data/stroke_clean.csv)  
   *(원본 데이터: Kaggle Stroke Prediction)*
