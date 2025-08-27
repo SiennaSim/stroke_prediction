@@ -1,5 +1,4 @@
-# stroke_prediction
-Machine learning models to predict stroke risk using patient demographic and clinical data.
+# Stroke Prediction (EDA + Logistic Baseline)
 
 
 ##  Overview
@@ -20,13 +19,22 @@ stroke-prediction/
 ├─ figures/                # 그래프 및 결과 이미지
 └─ README.md
 ```
+- **Notebooks**:  
+  - [01_eda.ipynb](notebooks/01_eda.ipynb)  
+  - [02_modeling.ipynb](notebooks/02_modeling.ipynb)
 
-##  Results
-- ROC-AUC: XX (추가 예정)
-- 주요 변수: 나이, 혈당, 흡연 여부 등
-- 샘플 그래프: (추후 업로드)
-![ROC Curve](figures/roc_rf.png)
+- **Key Figures**:  
+  ROC | PR
+  --- | ---
+  <img src="figures/roc_logit.png" width="400"/> | <img src="figures/pr_logit.png" width="400"/>
 
-## 💡 Next Steps
-- ECG 데이터 분석 프로젝트 확장
-- 전자의무기록(EMR) 데이터 마이닝 적용
+- **Confusion Matrices**:  
+  <img src="figures/confmat_logit_default.png" width="350"/>  
+  <img src="figures/confmat_logit_tuned.png" width="350"/>
+
+- **Clean data**: [`data/stroke_clean.csv`](data/stroke_clean.csv)  
+  *(원본 데이터: Kaggle Stroke Prediction — 링크만 안내하고 원본 파일은 업로드하지 않음)*
+
+## Results (Logistic, class_weight=balanced)
+- Accuracy **0.738** · Precision **0.134** · Recall **0.800** · F1 **0.230**  
+- ROC-AUC **0.839** · PR-AUC **0.259**
