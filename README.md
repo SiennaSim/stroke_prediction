@@ -62,4 +62,4 @@ stroke-prediction/
 ## ✅ Results (Logistic, class_weight=balanced)
 - Accuracy **0.738** · Precision **0.134** · Recall **0.800** · F1 **0.230**  
 - ROC-AUC **0.839** · PR-AUC **0.259**
-  불균형 데이터 상황에서도 재현율(Recall) 0.80으로 환자를 놓치지 않는 모델을 구현했지만, 정밀도는 낮음. 향후 RandomForest, XGBoost 등의 기법으로 개선 여지 있음.
+- 불균형 데이터 상황에서도 재현율(Recall) 0.80으로 환자를 놓치지 않는 모델을 구현했지만, 정밀도는 낮음. 향후 RandomForest, XGBoost 등의 기법으로 개선 여지 있음.
