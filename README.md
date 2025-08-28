@@ -10,7 +10,7 @@ Predicting stroke risk using demographic and clinical data with a logistic regre
 ## 🎯 Key Achievements
 - 재현율(Recall) **80%** 달성 → Successfully achieved Recall of 80% 
 - ROC-AUC **0.839**로 우수한 분류 성능 구현  
-- 클래스 불균형 문제를 **class_weight='balanced'**로 대응 
+- 클래스 불균형 문제를 **class_weight='balanced'** 로 대응 
 
 
 ## 📈 Dataset Information
