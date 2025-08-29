@@ -20,7 +20,7 @@ Predicting stroke risk using demographic and clinical data with a logistic regre
 - **특성 변수**: 나이, 성별, 고혈압, 심장병, 결혼상태, 직업, 거주지역, 평균혈당수치, BMI, 흡연여부
 
 
-## 🔧 기술 스택
+## 🔧 Tech Stack
 - **데이터 처리 & 분석**  
   - pandas: 데이터 조작 및 전처리  
   - numpy: 수치 연산  
